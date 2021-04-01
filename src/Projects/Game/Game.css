@@ -1,0 +1,17 @@
+.Game{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+}
+.Game img {
+    width:15em;
+   height:15em;
+    border:7px solid rgb(157, 177, 171);
+
+    border-radius: 40px;
+    margin: 10px;
+}
+.game-name{
+    color:black;
+    
+}

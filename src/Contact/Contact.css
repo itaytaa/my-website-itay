@@ -1,0 +1,112 @@
+.Contact {
+    min-height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(top, #a7cff0 0%, rgb(181, 224, 194) 100%);
+}
+
+.cloud {
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    border-radius: 200px;
+    /* -moz-border-radius: 200px; */
+    /* -webkit-border-radius: 200px; */
+    z-index: 0;
+    position: relative;
+}
+.clouds {
+    z-index: 0;
+    /* position: absolute; */
+    margin-top:100;
+    margin-bottom: 0;
+}
+
+.cloud:before, .cloud:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    border-radius: 100px;
+    /* -moz-border-radius: 100px; */
+    /* -webkit-border-radius: 100px; */
+    /* -webkit-transform: rotate(30deg); */
+    transform: rotate(30deg);
+    /* -moz-transform: rotate(30deg); */
+}
+
+.cloud:after {
+    width: 120px;
+    height: 120px;
+    top: -55px;
+    left: auto;
+    right: 20px;
+}
+
+.x1 {
+    top:300px;
+    z-index: 0;
+ animation: moveclouds 30s linear infinite;
+    /* -moz-animation: moveclouds 30s linear infinite; */
+    /* -o-animation: moveclouds 30s linear infinite; */
+}
+
+/*variable speed, opacity, and position of clouds for realistic effect*/
+
+.x2 {
+    left: 100px;
+    top: 250px;
+    z-index: 0;
+    /* -webkit-transform: scale(0.6); */
+    /* -moz-transform: scale(0.6); */
+    transform: scale(0.6);
+    opacity: 0.6;
+
+    animation: moveclouds 25s linear infinite;
+    /* -moz-animation: moveclouds 25s linear infinite; */
+    /* -o-animation: moveclouds 25s linear infinite; */
+}
+
+.x3 {
+    z-index: 0;
+    left: -250px;
+    top: 270px;
+    /* -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8); */
+    transform: scale(0.8);
+    opacity: 0.8;
+    /*opacity proportional to the size*/
+ animation: moveclouds 20s linear infinite;
+    /* -moz-animation: moveclouds 20s linear infinite;
+    -o-animation: moveclouds 20s linear infinite; */
+}
+
+@keyframes moveclouds {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: -100px;
+    }
+}
+
+@keyframes moveclouds {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}
+
+@keyframes moveclouds {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: -100%;
+    }
+}

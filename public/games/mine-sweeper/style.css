@@ -1,0 +1,72 @@
+h1{
+text-align: center;
+
+}
+.panel{
+text-align: center;
+
+}
+button{
+font-size: 12pt;
+    height:60px;
+    width: 120px;
+    border: 4px solid rgb(219, 223, 17);
+    box-shadow: dimgray ;
+}
+button:hover{
+
+
+    background: rgb(241, 192, 99);
+    border-left: 1px solid rgb(46, 36, 36);
+}
+
+
+.cell{
+background-color:rgb(189, 189, 189) ;
+height: 30px;
+width: 30px;
+border: 2px solid black;
+text-align: center;
+
+}
+.cell:hover{
+
+
+    background: #eee;
+    border-left: 1px solid #666;
+}
+table{
+margin:0 auto;
+margin-top : 20px;
+}
+#shown{
+background-color: rgb(232, 229, 229);
+
+}
+body{
+background-image: url("image.jpeg");
+
+background-size:1100px;
+}
+
+.bibi{
+margin:auto;
+background-color: yellow;
+color: black;
+width :250px;
+height: 120px;
+font-size: 40pt;
+text-align: center;
+display: none;
+
+}
+h2{
+    text-align: center;
+}
+.life1, .life2,.life3 {
+
+color: red;
+font-size: 50px;
+
+
+}

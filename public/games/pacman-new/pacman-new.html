@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+
+<body onload="init()" onkeydown="movePacman(event)">
+    <h1><span id="P">P</span><span id="A">A</span><span id="C">C</span><span id="M">M</span><span id="AA">A</span><span
+            id="N">N</span></h1>
+    <div id="backgroundaudio">
+        <i class="fa fa-volume-up"></i>
+        <audio autoplay="" controls="" loop="none" preload="">
+            <source src="PacMan Original Theme.ogg" type="audio/ogg">
+            </source>
+            <source src="PacMan Original Theme.mp3" type="audio/mp3">
+            </source>
+
+        </audio>
+    </div>
+
+
+
+    <span class="score">score:</span><br>
+
+    <div class="game-area">
+
+
+    </div>
+
+
+
+</body>
+<script src="js/pacman.js"></script>
+<script src="js/ghosts.js"></script>
+<script src="js/new-pacman-game.js"></script>
+<script src="js/utils.js"></script>
+
+</html>

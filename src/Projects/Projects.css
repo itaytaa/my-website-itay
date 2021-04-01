@@ -1,0 +1,26 @@
+.Projects {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: -webkit-linear-gradient(top, #a7cff0 0%, rgb(181, 224, 194) 100%);
+}
+
+.games-container {
+    display: flex;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 20px 24px 56px 12px rgba(0, 0, 0, 0.75);
+    margin-bottom: 50px;
+}
+
+.title-games {
+    text-align: center;
+    background: white;
+    font-family: 'Bungee Shade', cursive;
+    margin: 20px;
+    padding: 5px;
+}
+
+video {
+    width: 70%;
+    height: 70%;
+}

@@ -1,0 +1,51 @@
+.race-road {
+   margin-top:20px;
+   border: 3px solid black;
+   background-color: rgb(173, 170, 170);
+   height: 400px;
+   width:1300px
+}
+
+hr {
+   margin-top: 80px;
+   border-bottom: 5px dashed black;
+   background-color: rgb(146, 144, 144);
+}
+
+
+
+.car {
+   margin-top: 50px;
+   width: 100px;
+   height: 70px;
+  
+}
+
+#car1 {
+   width: 100px;
+}
+
+#car1:hover{
+  width:110px;
+  height :120px;
+}
+
+#car2:hover{
+  width:110px;
+  height :110px;
+}
+
+#car2 {
+   width: 100px;
+   height: 80px;
+}
+
+h1 {
+   color: rgb(83, 83, 214);
+   text-align: center;
+   font-size: 60px;
+}
+button{
+margin-left: 50%;
+
+}

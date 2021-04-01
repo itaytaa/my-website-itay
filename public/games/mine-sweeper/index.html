@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine sweeper</title>
+</head>
+
+<body onload="initGame(16)">
+    <h1>Mine Sweeper</h1>
+    <h2>
+        <span class="life1">&#9829</span> 
+        <span class="life2">&#9829</span>
+        <span class="life3">&#9829</span>
+    </h2>
+    <div class="panel">
+        <button onclick="initGame(16)">EASY 4X4  2 mines</button>
+        <button onclick="initGame(64)">MEDIUM 8X8  12 mines</button>
+        <button onclick="initGame(144)">HARD 12X12   30 mines</button>
+    </div>
+    
+    <table>
+        <tbody>
+
+
+        </tbody>
+    </table>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
