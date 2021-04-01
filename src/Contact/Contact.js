@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className="Contact">
             <div className="contact-box">
-                <div><b>Tel:</b> +952-3919039</div>
+                <div><b>Tel:</b> +972-523919039</div>
                 <div><b>Email:</b>  Itaytaasa@gmail.com</div>
                 <div><b>GitHub:</b> https://github.com/itaytaa</div>
             </div>
