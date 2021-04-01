@@ -1,4 +1,6 @@
 .Contact {
+    display: flex;
+    justify-content: center;
     min-height: 100vh;
     width: 100%;
     background: -webkit-linear-gradient(top, #a7cff0 0%, rgb(181, 224, 194) 100%);
@@ -9,15 +11,13 @@
     height: 60px;
     background: #fff;
     border-radius: 200px;
-    /* -moz-border-radius: 200px; */
-    /* -webkit-border-radius: 200px; */
     z-index: 0;
     position: relative;
 }
+
 .clouds {
     z-index: 0;
-    /* position: absolute; */
-    margin-top:100;
+    position: fixed;
     margin-bottom: 0;
 }
 
@@ -47,9 +47,9 @@
 }
 
 .x1 {
-    top:300px;
+    top: 300px;
     z-index: 0;
- animation: moveclouds 30s linear infinite;
+    animation: moveclouds 30s linear infinite;
     /* -moz-animation: moveclouds 30s linear infinite; */
     /* -o-animation: moveclouds 30s linear infinite; */
 }
@@ -64,7 +64,6 @@
     /* -moz-transform: scale(0.6); */
     transform: scale(0.6);
     opacity: 0.6;
-
     animation: moveclouds 25s linear infinite;
     /* -moz-animation: moveclouds 25s linear infinite; */
     /* -o-animation: moveclouds 25s linear infinite; */
@@ -79,7 +78,7 @@
     transform: scale(0.8);
     opacity: 0.8;
     /*opacity proportional to the size*/
- animation: moveclouds 20s linear infinite;
+    animation: moveclouds 20s linear infinite;
     /* -moz-animation: moveclouds 20s linear infinite;
     -o-animation: moveclouds 20s linear infinite; */
 }
@@ -109,4 +108,15 @@
     100% {
         margin-left: -100%;
     }
+}
+
+.contact-box {
+    width: 340px;
+    border: 0px solid black;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    background-color: rgb(228, 248, 247);
+    padding: 30px;
 }
